@@ -6,7 +6,7 @@ import routes from "./routes/routes";
 function App() {
   return (
     <Provider store={store}>
-      <div>
+      <div className="bg-white">
         <RouterProvider router={routes} />
       </div>
     </Provider>
